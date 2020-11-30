@@ -1,0 +1,87 @@
+
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    margin: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.home{
+    
+     background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+     min-height: calc(100vh);
+     background-position-x: -400px;  
+} 
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    /* border-bottom: 1px solid white; */
+    color:red;
+    padding: 0 5rem;
+    
+}
+nav a{
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+    border: transparent solid 20px;
+}
+
+.brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.main{
+    min-height: calc(100vh - 60px);
+    background-color:  rgba(0, 0, 0, 0.6);
+  padding:25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+.title{
+    padding-top: 1rem;
+}
+.start-button{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.start-button:hover{
+    background-color: white ;
+    color:red;
+    border:none;
+    outline:none;
+}
+
+@media(max-width:768px){
+    .navbar{
+        padding:0 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+    .main{
+        padding: 0.5rem;
+    }
+    .start-button{
+        padding: 1rem;
+    }
+}

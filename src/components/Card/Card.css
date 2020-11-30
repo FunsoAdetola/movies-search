@@ -1,0 +1,58 @@
+.card-page{
+    padding: 0.5rem 5rem;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    color:#373a40;
+    line-height: 1.5;
+}
+
+.card1{
+    min-height: 100%;
+    background-color: white;
+    border: white 1px solid;
+    min-width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card1-image{
+ border-bottom: 3px solid #373a40;;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.card1-title{
+    font-size: 3rem;
+    margin-top: 1rem;
+} 
+
+.card1-content{
+    padding: 1.5rem;
+}
+
+@media(max-width:768px){
+  .card-page{
+      padding: 0;
+      display: block;
+  }  
+  .card1{
+      min-width: 100%;
+      max-width: 100%;
+      border-radius: 0;
+      padding-top: 1srem;
+  }
+  .card1-image img{
+      width: 50%;
+  }
+  .card1-title{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+} 
+}
