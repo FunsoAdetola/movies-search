@@ -7,7 +7,7 @@ import Card from "./Card/Card";
 // import MovieList from "./MovieList/MovieList";
 import "./App.css";
 
-import {BrowserRouter as Router,Switch, Route } from "react-router-dom"
+import {HashRouter as Router,Switch, Route } from "react-router-dom"
 
 
 
